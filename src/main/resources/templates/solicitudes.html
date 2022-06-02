@@ -1,0 +1,184 @@
+
+<div th:fragment="solicitud">
+<div class="row ">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Order de Solicitudes</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i></label>
+                              </div>
+                            </th>
+                            <th> Cliente </th>
+                            <th> N° Orden </th>
+                            <th> Servicio </th>
+                            <th> Insidente </th>
+                            <th> Fecha </th>
+                            <th> Prioridad </th>
+                            <th> Estado </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i></label>
+                              </div>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face1.jpg" alt="image">
+                              <span class="ps-2">Henry Klein</span>
+                            </td>
+                            <td> 02312 </td>
+                            <td> Agregar SSL al dominio </td>
+                            <td> Agrege ami dominio SSL</td>
+                            <td> 20/05/2022</td>
+                            <td> <div class="badge badge-danger"> </div></td>
+                            <td>
+                            <button class="btn badge-outline-warning">Pendiente</button>
+                              
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i></label>
+                              </div>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face2.jpg" alt="image">
+                              <span class="ps-2">Estella Bryan</span>
+                            </td>
+                            <td> 02312 </td>
+                            <td> Fallas de sistema</td>
+                            <td> No genera PDF</td>
+                            <td> 20/05/2022 </td>
+                            <td> <div class="badge badge-danger"> </td>
+                            <td>
+                               <button class="btn badge-outline-info">Asignado</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i></label>
+                              </div>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face5.jpg" alt="image">
+                              <span class="ps-2">Lucy Abbott</span>
+                            </td>
+                            <td> 02312 </td>
+                            <td> Falla</td>
+                            <td> No puedo Accder al sistema</td>
+                            <td> 20/05/2022 </td>
+                            <td> <div class="badge badge-info"> </td>
+                            <td>
+                               <button class="btn badge-outline-primary">En Proceso</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i></label>
+                              </div>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face3.jpg" alt="image">
+                              <span class="ps-2">Peter Gill</span>
+                            </td>
+                            <td> 02312 </td>
+                            <td> Sistema de ventas </td>
+                            <td> No me deja cambiar Contraseña </td>
+                            <td> 20/05/2022 </td>
+                            <td> <div class="badge badge-warning"> </td>
+                            <td>
+                              <div class="badge badge-outline-success">Cerrado</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                <i class="input-helper"></i></label>
+                              </div>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face4.jpg" alt="image">
+                              <span class="ps-2">Sallie Reyes</span>
+                            </td>
+                            <td> 02312 </td>
+                            <td> Consulta </td>
+                            <td> Donde Cambio en IGV </td>
+                            <td> 20/05/2022 </td>
+                            <td> <div class="badge badge-danger"> </td>
+                            <td>
+                              <div class="badge badge-outline-success">Cerrado</div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<div class="vnt" id="vnt-solicitud"> 
+<div>
+<button class="f-r btn btn-outline-secondary mdi mdi-window-close"></button>
+<div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Basic form elements</h4>
+                    <p class="card-description"> Basic form elements </p>
+                    <form class="forms-sample">
+                      
+                      <div class="form-group">
+                        <label for="exampleSelectGender">Gender</label>
+                        <select class="form-control" id="exampleSelectGender">
+                          <option>Male</option>
+                          <option>Female</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label>File upload</label>
+                        <input type="file" name="img[]" class="file-upload-default">
+                        <div class="input-group col-xs-12">
+                          <input type="text" class="form-control file-upload-info" disabled="" placeholder="Upload Image">
+                          <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputCity1">City</label>
+                        <input type="text" class="form-control" id="exampleInputCity1" placeholder="Location">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleTextarea1">Textarea</label>
+                        <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary me-2">Submit</button>
+                      <button class="btn btn-dark">Cancel</button>
+                    </form>
+                  </div>
+                </div>
+</div>
+</div>
+<//div>

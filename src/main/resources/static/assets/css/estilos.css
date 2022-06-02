@@ -1,0 +1,23 @@
+.logo img{
+	height: 60px;
+}
+.f-r{
+	display: inline-block;
+}
+
+.vnt{
+	padding: 10%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 10000!important;
+	background-color: rgba(10, 10, 10, 0.6);
+	text-align: right;
+	
+}
+.vnt > div{
+	width: 80%;
+	display: inline-block;
+}
